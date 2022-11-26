@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+nav{
+  background-color: black;
+}
+
+ul {
+  margin-left: 30%;
+  
+}
+.hero{
+  min-height: 100vh;
+  /* width: 100vh; */
+  background-image: url(images/hero-bg.jpg);
+  /* font-family:'Raleway',sans-serif ; */
+  color: white;
+  /* background-attachment: fixed; */
+  padding-top: 70px;
+
+}
+.hero-container{
+padding-top: 100px;
+}
+.hero-container h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+.hero-container p{
+  font-size: 20px;
+}
+
+.hero-container span{
+  color: orange;
+}
+.border{
+  border: solid white;
+  margin: 50px;
+  padding: 20px;
+
+  /* width: 100px; */
+  /* font-weight: bold; */
+}
+
+.border h3{
+  font-weight: bold;
+}
+.border i{
+  color: orange;
+  margin-left:35px;
+   
+}
+.about{
+  padding-top: 50px;
+}
+.about-text{
+  width: 60%;
+}
+.about-heading{
+  font-weight: bold;
+  
+}
+.about-text ul{
+ 
+}
+.about-img{
+  width:650px ;
+  padding-left: 50px;
+
+}
+.features-img{
+  width: 100%;
+}
+.hr-clients{
+  border-top:10px dotted;
+  width: 100px;
+  margin-left: 45%;
+  margin-top: 60px;
+}
+.icon-features{
+  padding-right: 20px;
+  padding-bottom: 40px;
+  color: orange;
+}
+
+.container-1{
+  margin-bottom: 30px;
+}
+.container-2{
+  margin-bottom: 30px;
+}
+.container-3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.border-1{
+  border: solid #878f99;
+  
+}
+.title{
+  
+}
+.padding-1{
+ margin-top: 50px;
+}
+.call-action{
+  padding-top: 50px;
+  background-image: url(images/cta-bg.jpg);
+  color: white;
+  background-attachment: fixed;
+}
+.button-cta{
+   margin-left: 45%;
+}
+.img-count{
+  width: 500px;
+  height: 400px;
+}
+.testimonials{
+  background-image: url(images/testimonials-bg.jpg);
+  padding-bottom: 10px;
+  
+}
+.saul-img{
+  width:100px;
+  border-radius: 50px;
+  border: solid grey;
+  margin-left: 700px;
+  margin-top: 50px;
+  
+}
+.saul-title{
+  color: white;
+  margin-left:650px;
+  margin-top: 40px;
+}
+
+.saul-designation{
+  color: white;
+  margin-left: 680px;
+  /* margin-bottom: 40px; */
+  
+}
+
+.hr-testimonials{
+  border-top:10px dotted;
+  width: 100px;
+  color: solid ;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 650px;
+
+}
+.margin-team{
+  margin-left: 80px;
+}
+/* .map{
+  padding-right: 500px;
+  margin-left: 50px;
+} */
+.contact-us{
+  margin-left: 50px;
+}
+.icon-contact{
+  background-color: orange;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.icon-location{
+  margin-left: 13px;
+  margin-top: 12px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  /* padding-right:; */
+}
