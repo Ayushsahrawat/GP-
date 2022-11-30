@@ -13,18 +13,24 @@ nav{
 }
 
 ul {
-  margin-left: 30%;
+  /* margin-left: 30%; */
   
 }
 .hero{
-  min-height: 100vh;
+  height: 100vh;
   /* width: 100vh; */
   background-image: url(images/hero-bg.jpg);
   /* font-family:'Raleway',sans-serif ; */
   color: white;
   /* background-attachment: fixed; */
   padding-top: 70px;
+  background-repeat: no-repeat;
 
+}
+@media screen and (max-width: 768px) {
+  .hero{
+    height: auto;
+  }
 }
 .hero-container{
 padding-top: 100px;
@@ -42,8 +48,8 @@ padding-top: 100px;
 }
 .border{
   border: solid white;
-  margin: 50px;
-  padding: 20px;
+  /* margin: 50px; */
+  padding: 10px;
 
   /* width: 100px; */
   /* font-weight: bold; */
@@ -61,7 +67,7 @@ padding-top: 100px;
   padding-top: 50px;
 }
 .about-text{
-  width: 60%;
+  /* width: 60%; */
 }
 .about-heading{
   font-weight: bold;
@@ -71,8 +77,9 @@ padding-top: 100px;
  
 }
 .about-img{
-  width:650px ;
-  padding-left: 50px;
+  width: 100%;
+  /* width:650px ;
+  padding-left: 50px; */
 
 }
 .features-img{
@@ -114,44 +121,39 @@ padding-top: 100px;
 .title{
   
 }
-.padding-1{
- margin-top: 50px;
-}
+
 .call-action{
-  padding-top: 50px;
   background-image: url(images/cta-bg.jpg);
   color: white;
   background-attachment: fixed;
 }
 .button-cta{
-   margin-left: 45%;
+   /* margin-left: 45%; */
 }
 .img-count{
-  width: 500px;
-  height: 400px;
+  width: 100%;
 }
 .testimonials{
   background-image: url(images/testimonials-bg.jpg);
-  padding-bottom: 10px;
+  /* z-index: -999; */
+  background-attachment: fixed;
+
   
 }
 .saul-img{
   width:100px;
   border-radius: 50px;
   border: solid grey;
-  margin-left: 700px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   
 }
 .saul-title{
   color: white;
-  margin-left:650px;
-  margin-top: 40px;
 }
 
 .saul-designation{
   color: white;
-  margin-left: 680px;
+  /* margin-left: 680px; */
   /* margin-bottom: 40px; */
   
 }
@@ -159,22 +161,22 @@ padding-top: 100px;
 .hr-testimonials{
   border-top:10px dotted;
   width: 100px;
-  color: solid ;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  margin-left: 650px;
+  margin:0;
+    color: white;
+    border: 1;
+    opacity: 1;
 
 }
-.margin-team{
+/* .margin-team{
   margin-left: 80px;
-}
+} */
 /* .map{
   padding-right: 500px;
   margin-left: 50px;
 } */
-.contact-us{
+/* .contact-us{
   margin-left: 50px;
-}
+} */
 .icon-contact{
   background-color: orange;
   width: 40px;
